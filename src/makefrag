@@ -1,0 +1,4 @@
+#
+# Use the new message compiler introduced in OMNeT++ .
+#
+MSGC:=$(MSGC) --msg6

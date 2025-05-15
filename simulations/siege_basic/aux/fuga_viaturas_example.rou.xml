@@ -1,0 +1,18 @@
+	 <!-- Veículo em fuga -->
+    <vType id="fugitivoType" accel="2.0" decel="4.5" sigma="0.5" length="4.5" maxSpeed="25" guiShape="passenger"/>
+    <vehicle id="fugitivo" type="fugitivoType" depart="0" departLane="best" departSpeed="max">
+        <route edges="E1 E2 E3 E4 E5 E6 E7"/> <!-- Substitua pelas edges reais -->
+    </vehicle>
+
+    <!-- Viaturas policiais -->
+    <vType id="viaturaType" accel="2.5" decel="4.5" sigma="0.2" length="4.5" maxSpeed="35" color="0,0,255" guiShape="emergency"/>
+
+    <vehicle id="viatura1" type="viaturaType" depart="60" departLane="best" departSpeed="max">
+        <route edges="V1 V2 V3"/> <!-- Substitua pelas edges reais -->
+    </vehicle>
+    <vehicle id="viatura2" type="viaturaType" depart="60" departLane="best" departSpeed="max">
+        <route edges="V4 V5 V6"/>
+    </vehicle>
+    <vehicle id="viatura3" type="viaturaType" depart="60" departLane="best" departSpeed="max">
+        <route edges="V7 V8 V9"/>
+    </vehicle>
