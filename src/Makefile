@@ -2,7 +2,7 @@
 # OMNeT++/OMNEST Makefile for siege
 #
 # This file was generated with the command:
-#  opp_makemake -f --deep -KERLANGEN_PROJ=/home/veins/workspace.omnetpp/Erlangen -KINET_PROJ=/home/veins/src/inet -KLTE_PROJ=/home/veins/src/simulte -KVEINS_INET_PROJ=/home/veins/src/veins/subprojects/veins_inet -KVEINS_PROJ=/home/veins/src/veins -DINET_IMPORT -DVEINS_IMPORT -DVEINS_INET_IMPORT -I$$\(ERLANGEN_PROJ\) -I$$\(INET_PROJ\)/src -I$$\(LTE_PROJ\)/src -I$$\(VEINS_INET_PROJ\)/src -I$$\(VEINS_PROJ\)/src -I. -L$$\(INET_PROJ\)/src -L$$\(LTE_PROJ\)/src -L$$\(VEINS_PROJ\)/src -L$$\(VEINS_INET_PROJ\)/src -lINET$$\(D\) -llte$$\(D\) -lveins$$\(D\) -lveins_inet$$\(D\)
+#  opp_makemake -f --deep -KINET_PROJ=../../inet -KLTE_PROJ=../../simulte -KVEINS_INET_PROJ=/home/veins/src/veins/subprojects/veins_inet -KVEINS_PROJ=../../veins -DINET_IMPORT -DVEINS_IMPORT -DVEINS_INET_IMPORT -I$$\(INET_PROJ\)/src -I$$\(LTE_PROJ\)/src -I$$\(VEINS_INET_PROJ\)/src -I$$\(VEINS_PROJ\)/src -I. -L$$\(INET_PROJ\)/src -L$$\(LTE_PROJ\)/src -L$$\(VEINS_PROJ\)/src -L$$\(VEINS_INET_PROJ\)/src -lINET$$\(D\) -llte$$\(D\) -lveins$$\(D\) -lveins_inet$$\(D\)
 #
 
 # Name of target to be created (-o option)
@@ -20,13 +20,7 @@ USERIF_LIBS = $(ALL_ENV_LIBS) # that is, $(TKENV_LIBS) $(QTENV_LIBS) $(CMDENV_LI
 #USERIF_LIBS = $(QTENV_LIBS)
 
 # C++ include paths (with -I)
-INCLUDE_PATH = \
-    -I$(ERLANGEN_PROJ) \
-    -I$(INET_PROJ)/src \
-    -I$(LTE_PROJ)/src \
-    -I$(VEINS_INET_PROJ)/src \
-    -I$(VEINS_PROJ)/src \
-    -I.
+INCLUDE_PATH = -I$(INET_PROJ)/src -I$(LTE_PROJ)/src -I$(VEINS_INET_PROJ)/src -I$(VEINS_PROJ)/src -I.
 
 # Additional object and library files to link with
 EXTRA_OBJS =
@@ -57,11 +51,10 @@ MSGFILES = \
 SMFILES =
 
 # Other makefile variables (-K)
-ERLANGEN_PROJ=/home/veins/workspace.omnetpp/Erlangen
-INET_PROJ=/home/veins/src/inet
-LTE_PROJ=/home/veins/src/simulte
+INET_PROJ=../../inet
+LTE_PROJ=../../simulte
 VEINS_INET_PROJ=/home/veins/src/veins/subprojects/veins_inet
-VEINS_PROJ=/home/veins/src/veins
+VEINS_PROJ=../../veins
 
 #------------------------------------------------------------------------------
 
