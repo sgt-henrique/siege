@@ -1,19 +1,29 @@
 version 2
-run plain-0-20250519-10:02:57-54370
-attr configname plain
-attr datetime 20250519-10:02:57
-attr experiment plain
+run canvas-0-20250519-10:04:58-54548
+attr configname canvas
+attr datetime 20250519-10:04:58
+attr experiment canvas
 attr inifile omnetpp.ini
 attr iterationvars ""
 attr iterationvarsf ""
 attr measurement ""
 attr network Scenario
-attr processid 54370
+attr processid 54548
 attr repetition 0
 attr replication #0
 attr resultdir results
 attr runnumber 0
 attr seedset 0
+param *.visualizer.*.obstacleLossVisualizer.displayIntersections true
+param *.visualizer.*.obstacleLossVisualizer.displayFaceNormalVectors true
+param *.visualizer.*.obstacleLossVisualizer.intersectionLineColor "\"yellow\""
+param *.visualizer.*.mediumVisualizer.signalPropagationAnimationSpeed 500/3e8
+param *.visualizer.*.mediumVisualizer.signalTransmissionAnimationSpeed 50000/3e8
+param *.visualizer.*.mediumVisualizer.displaySignals true
+param *.visualizer.canvasVisualizer.mediumVisualizer.displaySignalDepartures false
+param *.visualizer.canvasVisualizer.mediumVisualizer.displaySignalArrivals false
+param *.visualizer.*.physicalLinkVisualizer.displayLinks true
+param *.visualizer.osgVisualizer.typename "\"\""
 param *.node[*].numApps 1
 param *.node[*].app[0].typename "\"siege.veins_inet.VeinsInetSampleApplication\""
 param *.node[*].app[0].interface "\"wlan0\""

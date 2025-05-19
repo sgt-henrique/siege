@@ -1,0 +1,16 @@
+Um cidadão surge em algum lugar do cenário e comunica, via ligação telefônica (considerar um tempo compatível com essa ligação), uma notícia que envolve veículo em fuga com uma última localização conhecida, bem como um sentido na via (essa notícia vai chegar com atraso 1 minuto). Pretende-se, através de 3 viaturas policiais, promover um encontro das viaturas com o veículo em fuga antes que um determinado período de tempo seja alcançado (onde será considerado desaparecido). Vamos modelar isso num cenário de grid de 3000 x 3000 metros que já possui um fluxo de veículo criado. Precisamos criar o veículo em fuga e as 3 viaturas. Além disso, será considerado capturado o veículo em fuga quando a distância entre ele e uma viatura for inferior a 100 metros.
+A simulação ocorre com o evento do veículo em fuga e a comunicação com 60s de atraso sobre essa fuga.
+Após 60s, a informação chega para as viaturas, que devem adotar alguma lógica.
+
+O comportamento definido para o veículo em fuga é, a partir do local onde surgiu, sair do GRID, pela extremidade mais distante (das 4 paredes do grid, a menos benéfica) pegando as vias mais rápidas.
+
+1 - Construir o GRID;
+		Em 40km por hora, percorre quantos km em 10 min se não houver semáforo? 6,67km
+		Um grid 3000 x 3000 deve ser o suficiente para simular considerando que o veículo em fuga deve ser interceptado nos primeiros 2 minutos;
+		Grid 3000 x 3000 com quarteirões de 300 x 300 cujas vias possuem velocidade variável de 20 a 80km/h
+		
+		# Foram geradas rotas com 1000 veículos
+		# 
+
+2 - Fazer surgir aleatoriamente 3 viaturas policiais; Fazer surgir aleatoriamente 1 veículo fugitivo.
+	O comportamento do veículo fugitivo vai estar relacionado ao local onde ele surgir. Do local onde surgiu, ele deseja sair do GRID, junção (quina do grid) mais distante.

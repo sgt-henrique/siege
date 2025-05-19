@@ -7,6 +7,7 @@
 		<project>inet</project>
 		<project>lte</project>
 		<project>SUMO-Manhattan-1km_x_1km</project>
+		<project>SUMO-Manhattan-3km_x_3km</project>
 		<project>veins</project>
 		<project>veins_inet</project>
 	</projects>
