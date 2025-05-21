@@ -1,4 +1,4 @@
-file 597520 1746955064                                          
+file 597520 1747817058                                          
 version 2
 run plain-0-20250511-09:15:42-2859
 attr configname plain
@@ -51,1714 +51,1713 @@ vector 0 Scenario.node[0].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+0	62844 107 2 409 0.1 20.000756035724 7 0 3 12 30
 vector 1 Scenario.node[0].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+1	62951 10 2 2 0.1 0.1 1 3 3 3 9
 vector 2 Scenario.node[0].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+2	62961 135 2 409 0.1 20.000756035724 7 0 3 7 13
 vector 3 Scenario.node[0].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+3	63096 11 2 2 0.1 0.1 1 15 15 15 225
 vector 4 Scenario.node[1].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+4	63107 33 15 15 1.1 1.1 3 0 2 2 4
 vector 5 Scenario.node[1].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+5	63140 11 15 15 1.1 1.1 1 3 3 3 9
 vector 6 Scenario.node[1].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+6	63151 11 15 15 1.1 1.1 1 1 1 1 1
 vector 7 Scenario.node[1].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+7	63162 12 15 15 1.1 1.1 1 15 15 15 225
 vector 8 Scenario.node[2].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+8	63174 33 28 28 2.1 2.1 3 0 2 2 4
 vector 9 Scenario.node[2].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+9	63207 11 28 28 2.1 2.1 1 3 3 3 9
 vector 10 Scenario.node[2].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+10	63218 12 28 28 2.1 2.1 1 1 1 1 1
 vector 11 Scenario.node[2].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+11	63230 13 28 28 2.1 2.1 1 15 15 15 225
 vector 12 Scenario.node[3].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+12	63243 36 41 41 3.1 3.1 3 0 2 2 4
 vector 13 Scenario.node[3].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+13	63279 12 41 41 3.1 3.1 1 3 3 3 9
 vector 14 Scenario.node[3].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+14	63291 12 41 41 3.1 3.1 1 1 1 1 1
 vector 15 Scenario.node[3].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+15	63303 13 41 41 3.1 3.1 1 15 15 15 225
 vector 16 Scenario.node[4].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+16	63316 36 54 54 4.1 4.1 3 0 2 2 4
 vector 17 Scenario.node[4].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+17	63352 12 54 54 4.1 4.1 1 3 3 3 9
 vector 18 Scenario.node[4].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+18	63364 12 54 54 4.1 4.1 1 1 1 1 1
 vector 19 Scenario.node[4].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+19	63376 13 54 54 4.1 4.1 1 15 15 15 225
 vector 20 Scenario.node[5].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+20	63389 36 67 67 5.1 5.1 3 0 2 2 4
 vector 21 Scenario.node[5].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+21	63425 12 67 67 5.1 5.1 1 3 3 3 9
 vector 22 Scenario.node[5].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+22	63437 12 67 67 5.1 5.1 1 1 1 1 1
 vector 23 Scenario.node[5].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+23	63449 13 67 67 5.1 5.1 1 15 15 15 225
 vector 24 Scenario.node[6].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+24	63462 36 80 80 6.1 6.1 3 0 2 2 4
 vector 25 Scenario.node[6].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+25	63498 12 80 80 6.1 6.1 1 3 3 3 9
 vector 26 Scenario.node[6].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+26	63510 12 80 80 6.1 6.1 1 1 1 1 1
 vector 27 Scenario.node[6].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+27	63522 13 80 80 6.1 6.1 1 15 15 15 225
 vector 28 Scenario.node[7].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+28	63535 36 93 93 7.1 7.1 3 0 2 2 4
 vector 29 Scenario.node[7].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+29	63571 12 93 93 7.1 7.1 1 3 3 3 9
 vector 30 Scenario.node[7].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+30	63583 12 93 93 7.1 7.1 1 1 1 1 1
 vector 31 Scenario.node[7].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+31	63595 13 93 93 7.1 7.1 1 15 15 15 225
 vector 32 Scenario.node[8].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+32	63608 39 106 106 8.1 8.1 3 0 2 2 4
 vector 33 Scenario.node[8].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+33	63647 13 106 106 8.1 8.1 1 3 3 3 9
 vector 34 Scenario.node[8].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+34	63660 13 106 106 8.1 8.1 1 1 1 1 1
 vector 35 Scenario.node[8].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+35	63673 14 106 106 8.1 8.1 1 15 15 15 225
 vector 36 Scenario.node[9].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+36	63687 39 119 119 9.1 9.1 3 0 2 2 4
 vector 37 Scenario.node[9].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+37	63726 13 119 119 9.1 9.1 1 3 3 3 9
 vector 38 Scenario.node[9].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+38	63739 13 119 119 9.1 9.1 1 1 1 1 1
 vector 39 Scenario.node[9].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+39	63752 14 119 119 9.1 9.1 1 15 15 15 225
 vector 40 Scenario.node[10].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+40	63766 42 132 132 10.1 10.1 3 0 2 2 4
 vector 41 Scenario.node[10].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+41	63808 14 132 132 10.1 10.1 1 3 3 3 9
 vector 42 Scenario.node[10].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+42	63822 14 132 132 10.1 10.1 1 1 1 1 1
 vector 43 Scenario.node[10].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+43	63836 15 132 132 10.1 10.1 1 15 15 15 225
 vector 44 Scenario.node[11].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+44	63851 42 145 145 11.1 11.1 3 0 2 2 4
 vector 45 Scenario.node[11].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+45	63893 14 145 145 11.1 11.1 1 3 3 3 9
 vector 46 Scenario.node[11].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+46	63907 14 145 145 11.1 11.1 1 1 1 1 1
 vector 47 Scenario.node[11].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+47	63921 15 145 145 11.1 11.1 1 15 15 15 225
 vector 48 Scenario.node[12].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+48	63936 42 158 158 12.1 12.1 3 0 2 2 4
 vector 49 Scenario.node[12].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+49	63978 14 158 158 12.1 12.1 1 3 3 3 9
 vector 50 Scenario.node[12].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+50	63992 14 158 158 12.1 12.1 1 1 1 1 1
 vector 51 Scenario.node[12].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+51	64006 15 158 158 12.1 12.1 1 15 15 15 225
 vector 52 Scenario.node[13].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+52	64021 42 171 171 13.1 13.1 3 0 2 2 4
 vector 53 Scenario.node[13].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+53	64063 14 171 171 13.1 13.1 1 3 3 3 9
 vector 54 Scenario.node[13].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+54	64077 14 171 171 13.1 13.1 1 1 1 1 1
 vector 55 Scenario.node[13].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+55	64091 15 171 171 13.1 13.1 1 15 15 15 225
 vector 56 Scenario.node[14].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+56	64106 42 184 184 14.1 14.1 3 0 2 2 4
 vector 57 Scenario.node[14].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+57	64148 14 184 184 14.1 14.1 1 3 3 3 9
 vector 58 Scenario.node[14].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+58	64162 14 184 184 14.1 14.1 1 1 1 1 1
 vector 59 Scenario.node[14].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+59	64176 15 184 184 14.1 14.1 1 15 15 15 225
 vector 60 Scenario.node[15].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+60	64191 42 197 197 15.1 15.1 3 0 2 2 4
 vector 61 Scenario.node[15].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+61	64233 14 197 197 15.1 15.1 1 3 3 3 9
 vector 62 Scenario.node[15].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+62	64247 14 197 197 15.1 15.1 1 1 1 1 1
 vector 63 Scenario.node[15].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+63	64261 15 197 197 15.1 15.1 1 15 15 15 225
 vector 64 Scenario.node[16].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+64	64276 92 210 360 16.1 20.000506017862 5 0 3 7 17
 vector 65 Scenario.node[16].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+65	64368 14 210 210 16.1 16.1 1 3 3 3 9
 vector 66 Scenario.node[16].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+66	64382 164 210 410 16.1 20.000757053586 7 0 3 10 22
 vector 67 Scenario.node[16].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+67	64546 15 210 210 16.1 16.1 1 15 15 15 225
 vector 68 Scenario.node[17].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+68	64561 42 223 223 17.1 17.1 3 0 2 2 4
 vector 69 Scenario.node[17].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+69	64603 14 223 223 17.1 17.1 1 3 3 3 9
 vector 70 Scenario.node[17].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+70	64617 14 223 223 17.1 17.1 1 1 1 1 1
 vector 71 Scenario.node[17].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+71	64631 15 223 223 17.1 17.1 1 15 15 15 225
 vector 72 Scenario.node[18].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+72	64646 42 236 236 18.1 18.1 3 0 2 2 4
 vector 73 Scenario.node[18].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+73	64688 14 236 236 18.1 18.1 1 3 3 3 9
 vector 74 Scenario.node[18].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+74	64702 14 236 236 18.1 18.1 1 1 1 1 1
 vector 75 Scenario.node[18].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+75	64716 15 236 236 18.1 18.1 1 15 15 15 225
 vector 76 Scenario.node[19].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+76	64731 42 249 249 19.1 19.1 3 0 2 2 4
 vector 77 Scenario.node[19].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+77	64773 14 249 249 19.1 19.1 1 3 3 3 9
 vector 78 Scenario.node[19].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+78	64787 14 249 249 19.1 19.1 1 1 1 1 1
 vector 79 Scenario.node[19].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+79	64801 15 249 249 19.1 19.1 1 15 15 15 225
 vector 80 Scenario.node[0].app[0] packetSent:vector(packetBytes) ETV
 attr interpolationmode none
 attr source packetSent
 attr title "packets sent, vector(packetBytes)"
+80	64816 28 261 270 20 20 2 100 100 200 20000
 vector 81 Scenario.node[0].udp packetSent:vector(packetBytes) ETV
 attr interpolationmode none
 attr source packetSent
 attr title "packets sent, vector(packetBytes)"
+81	64844 28 263 271 20 20 2 108 108 216 23328
 vector 82 Scenario.node[0].lo[0].lo rcvdPkFromHl:vector(packetBytes) ETV
 attr interpolationmode none
 attr source packetReceivedFromUpper
 attr title "packets received from higher layer, vector(packetBytes)"
+82	64872 28 265 273 20 20 2 128 128 256 32768
 vector 83 Scenario.node[0].lo[0].lo passedUpPk:vector(packetBytes) ETV
 attr interpolationmode none
 attr source packetSentToUpper
 attr title "packets passed to higher layer, vector(packetBytes)"
+83	64900 28 265 273 20 20 2 128 128 256 32768
 vector 84 Scenario.node[0].wlan[0].mac packetReceivedFromUpper:vector(packetBytes) ETV
 attr interpolationmode none
 attr title "packets received from upper layer, vector(packetBytes)"
+84	64928 28 268 276 20 20 2 130 130 260 33800
 vector 85 Scenario.node[0].wlan[0].mac.dcf.channelAccess.pendingQueue packetPushed:vector(packetBytes) ETV
 attr interpolationmode none
 attr title "packet pushed, vector(packetBytes)"
+85	64956 28 268 276 20 20 2 158 158 316 49928
 vector 86 Scenario.node[0].wlan[0].mac.dcf.channelAccess.pendingQueue queueLength:vector ETV
 attr interpolationmode sample-hold
 attr source "count(packetPushed) - count(packetPopped) - count(packetRemoved) - count(packetDropped)"
 attr title "queue length, vector"
+86	64984 48 268 280 20 20 4 0 2 4 6
 vector 87 Scenario.node[0].wlan[0].mac.dcf.channelAccess.contention backoffPeriodGenerated:vector ETV
 attr interpolationmode none
 attr title "backoff periods, vector"
+87	65032 32 268 302 20 20.000152 2 3 14 17 205
 vector 88 Scenario.node[0].wlan[0].mac.dcf.channelAccess.contention backoffActive:vector ETV
 attr interpolationmode sample-hold
 attr source count(backoffStarted)-count(backoffStopped)
 attr title "backoff active, vector"
+88	65064 118 268 385 20 20.000604035724 6 0 1 3 3
 vector 89 Scenario.node[0].udp packetReceived:vector(packetBytes) ETV
 attr interpolationmode none
 attr source packetReceived
 attr title "packets received, vector(packetBytes)"
+89	65182 55 269 365 20 20.000507035724 3 108 108 324 34992
 vector 90 Scenario.node[0].udp passedUpPk:vector(count) ETV
 attr interpolationmode none
 attr source packetSentToUpper
 attr title "packets passed up, vector(count)"
+90	65237 49 269 365 20 20.000507035724 3 1 3 6 14
 vector 91 Scenario.node[0].app[0] packetReceived:vector(packetBytes) ETV
 attr interpolationmode none
 attr source packetReceived
 attr title "packets received, vector(packetBytes)"
+91	65286 55 270 366 20 20.000507035724 3 100 100 300 30000
 vector 92 Scenario.node[0].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+92	65341 8185 270 958 0.1 60 600 0 24000 24000 576000000
 vector 93 Scenario.node[0].app[0] rcvdPkLifetime:vector ETV
 attr interpolationmode none
 attr source dataAge(packetReceived)
 attr title "received packet lifetime, vector"
 attr unit s
+93	73526 62 270 366 20 20.000507035724 3 0 0.000507035724 0.000507035724 2.570852254122e-07
 vector 94 Scenario.node[0].wlan[0].mac.dcf.channelAccess.pendingQueue packetPopped:vector(packetBytes) ETV
 attr interpolationmode none
 attr title "packet popped, vector(packetBytes)"
+94	73588 28 280 280 20 20 2 158 158 316 49928
 vector 95 Scenario.node[0].wlan[0].mac.dcf.channelAccess.pendingQueue queueingTime:vector ETV
 attr interpolationmode none
 attr source queueingTime(packetPopped)
 attr title "queueing times, vector"
 attr unit s
+95	73616 24 280 280 20 20 2 0 0 0 0
 vector 96 Scenario.node[0].wlan[0].mac.dcf.channelAccess.inProgressFrames queueLength:vector ETV
 attr interpolationmode sample-hold
 attr source "count(packetEnqueued) - count(packetDequeued)"
 attr title "queue length, vector"
+96	73640 68 280 408 20 20.000756035724 4 0 2 4 6
 vector 97 Scenario.node[0].wlan[0].mac.dcf datarateSelected:vector ETV
 attr interpolationmode none
 attr title "datarates selected, vector"
+97	73708 51 280 386 20 20.000604035724 2 12000000 12000000 24000000 2.88e+14
 vector 98 Scenario.node[0].wlan[0].mac packetSentToLower:vector(packetBytes) ETV
 attr interpolationmode none
 attr title "packets sent to lower layer, vector(packetBytes)"
+98	73759 41 280 386 20 20.000604035724 2 158 158 316 49928
 vector 99 Scenario.node[0].wlan[0].mac.dcf frameSequenceActive:vector ETV
 attr interpolationmode sample-hold
 attr source count(frameSequenceStarted)-count(frameSequenceFinished)
 attr title "frame sequence active, vector"
+99	73800 81 280 408 20 20.000756035724 4 0 1 2 2
 vector 100 Scenario.node[0].wlan[0].radio transmissionState:vector ETV
 attr interpolationmode sample-hold
 attr source transmissionStateChanged
 attr title "Radio transmission state, vector"
+100	73881 170 281 409 20 20.000756035724 8 0 2 8 12
 vector 101 Scenario.node[0].wlan[0].mac.dcf packetSentToPeer:vector(packetBytes) ETV
 attr interpolationmode none
 attr title "packets sent, vector(packetBytes)"
+101	74051 50 302 408 20.000152 20.000756035724 2 158 158 316 49928
 vector 102 Scenario.node[0].wlan[0].mac.dcf packetSentToPeerMulticast:vector(packetBytes) ETV
 attr interpolationmode none
 attr source ieee80211Multicast(packetSentToPeer)
 attr title "packets sent: multicast, vector(packetBytes)"
+102	74101 50 302 408 20.000152 20.000756035724 2 158 158 316 49928
 vector 103 Scenario.node[0].wlan[0].mac.dcf packetSentToPeerWithoutRetry:vector(packetBytes) ETV
 attr interpolationmode none
 attr source ieee80211NotRetry(packetSentToPeer)
 attr title "packets sent: without retry, vector(packetBytes)"
+103	74151 50 302 408 20.000152 20.000756035724 2 158 158 316 49928
 vector 104 Scenario.node[0].wlan[0].mac.dcf.channelAccess.inProgressFrames queueingTime:vector ETV
 attr interpolationmode none
 attr source queueingTime(packetDequeued)
 attr title "queueing times, vector"
+104	74201 66 302 408 20.000152 20.000756035724 2 0.000152 0.000756035724 0.000908035724 5.946940159642e-07
 vector 105 Scenario.node[16].wlan[0].mac packetReceivedFromLower:vector(packetBytes) ETV
 attr interpolationmode none
 attr title "packets received from lower layer, vector(packetBytes)"
+105	74267 56 305 411 20.000153017862 20.000757053586 2 158 158 316 49928
 vector 106 Scenario.node[16].wlan[0].mac.dcf packetReceivedFromPeer:vector(packetBytes) ETV
 attr interpolationmode none
 attr title "packets received, vector(packetBytes)"
+106	74323 56 305 411 20.000153017862 20.000757053586 2 158 158 316 49928
 vector 107 Scenario.node[16].wlan[0].mac.dcf packetReceivedFromPeerMulticast:vector(packetBytes) ETV
 attr interpolationmode none
 attr source ieee80211Multicast(packetReceivedFromPeer)
 attr title "packets received: multicast, vector(packetBytes)"
+107	74379 56 305 411 20.000153017862 20.000757053586 2 158 158 316 49928
 vector 108 Scenario.node[16].wlan[0].mac.dcf packetReceivedFromPeerWithoutRetry:vector(packetBytes) ETV
 attr interpolationmode none
 attr source ieee80211NotRetry(packetReceivedFromPeer)
 attr title "packets received: without retry, vector(packetBytes)"
+108	74435 56 305 411 20.000153017862 20.000757053586 2 158 158 316 49928
 vector 109 Scenario.node[16].wlan[0].mac packetSentToUpper:vector(packetBytes) ETV
 attr interpolationmode none
 attr title "packets sent to upper layer, vector(packetBytes)"
+109	74491 56 305 411 20.000153017862 20.000757053586 2 130 130 260 33800
 vector 110 Scenario.node[16].udp packetReceived:vector(packetBytes) ETV
 attr interpolationmode none
 attr source packetReceived
 attr title "packets received, vector(packetBytes)"
+110	74547 84 308 414 20.000153017862 20.000757053586 3 108 108 324 34992
 vector 111 Scenario.node[16].udp passedUpPk:vector(count) ETV
 attr interpolationmode none
 attr source packetSentToUpper
 attr title "packets passed up, vector(count)"
+111	74631 78 308 414 20.000153017862 20.000757053586 3 1 3 6 14
 vector 112 Scenario.node[16].app[0] packetReceived:vector(packetBytes) ETV
 attr interpolationmode none
 attr source packetReceived
 attr title "packets received, vector(packetBytes)"
+112	74709 84 309 415 20.000153017862 20.000757053586 3 100 100 300 30000
 vector 113 Scenario.node[16].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+113	74793 8785 309 958 0.1 60 600 0 24000 24000 576000000
 vector 114 Scenario.node[16].app[0] rcvdPkLifetime:vector ETV
 attr interpolationmode none
 attr source dataAge(packetReceived)
 attr title "received packet lifetime, vector"
 attr unit s
+114	83578 117 309 415 20.000153017862 20.000757053586 3 0.000153017862 0.000757053586 0.00106308931 6.1995906425756e-07
 vector 115 Scenario.node[16].app[0] packetSent:vector(packetBytes) ETV
 attr interpolationmode none
 attr source packetSent
 attr title "packets sent, vector(packetBytes)"
+115	83695 28 309 309 20.000153017862 20.000153017862 1 100 100 100 10000
 vector 116 Scenario.node[16].udp packetSent:vector(packetBytes) ETV
 attr interpolationmode none
 attr source packetSent
 attr title "packets sent, vector(packetBytes)"
+116	83723 28 310 310 20.000153017862 20.000153017862 1 108 108 108 11664
 vector 117 Scenario.node[16].lo[0].lo rcvdPkFromHl:vector(packetBytes) ETV
 attr interpolationmode none
 attr source packetReceivedFromUpper
 attr title "packets received from higher layer, vector(packetBytes)"
+117	83751 28 312 312 20.000153017862 20.000153017862 1 128 128 128 16384
 vector 118 Scenario.node[16].lo[0].lo passedUpPk:vector(packetBytes) ETV
 attr interpolationmode none
 attr source packetSentToUpper
 attr title "packets passed to higher layer, vector(packetBytes)"
+118	83779 28 312 312 20.000153017862 20.000153017862 1 128 128 128 16384
 vector 119 Scenario.node[16].wlan[0].mac packetReceivedFromUpper:vector(packetBytes) ETV
 attr interpolationmode none
 attr title "packets received from upper layer, vector(packetBytes)"
+119	83807 28 315 315 20.000153017862 20.000153017862 1 130 130 130 16900
 vector 120 Scenario.node[16].wlan[0].mac.dcf.channelAccess.pendingQueue packetPushed:vector(packetBytes) ETV
 attr interpolationmode none
 attr title "packet pushed, vector(packetBytes)"
+120	83835 28 315 315 20.000153017862 20.000153017862 1 158 158 158 24964
 vector 121 Scenario.node[16].wlan[0].mac.dcf.channelAccess.pendingQueue queueLength:vector ETV
 attr interpolationmode sample-hold
 attr source "count(packetPushed) - count(packetPopped) - count(packetRemoved) - count(packetDropped)"
 attr title "queue length, vector"
+121	83863 52 315 337 20.000153017862 20.000354017862 2 0 1 1 1
 vector 122 Scenario.node[16].wlan[0].mac.dcf.channelAccess.contention backoffPeriodGenerated:vector ETV
 attr interpolationmode none
 attr title "backoff periods, vector"
+122	83915 27 315 315 20.000153017862 20.000153017862 1 11 11 11 121
 vector 123 Scenario.node[16].wlan[0].mac.dcf.channelAccess.contention backoffActive:vector ETV
 attr interpolationmode sample-hold
 attr source count(backoffStarted)-count(backoffStopped)
 attr title "backoff active, vector"
+123	83942 52 315 336 20.000153017862 20.000354017862 2 0 1 1 1
 vector 124 Scenario.node[16].wlan[0].mac.dcf.channelAccess.pendingQueue packetPopped:vector(packetBytes) ETV
 attr interpolationmode none
 attr title "packet popped, vector(packetBytes)"
+124	83994 28 337 337 20.000354017862 20.000354017862 1 158 158 158 24964
 vector 125 Scenario.node[16].wlan[0].mac.dcf.channelAccess.pendingQueue queueingTime:vector ETV
 attr interpolationmode none
 attr source queueingTime(packetPopped)
 attr title "queueing times, vector"
 attr unit s
+125	84022 33 337 337 20.000354017862 20.000354017862 1 0.000201 0.000201 0.000201 4.0401e-08
 vector 126 Scenario.node[16].wlan[0].mac.dcf.channelAccess.inProgressFrames queueLength:vector ETV
 attr interpolationmode sample-hold
 attr source "count(packetEnqueued) - count(packetDequeued)"
 attr title "queue length, vector"
+126	84055 52 337 359 20.000354017862 20.000506017862 2 0 1 1 1
 vector 127 Scenario.node[16].wlan[0].mac.dcf datarateSelected:vector ETV
 attr interpolationmode none
 attr title "datarates selected, vector"
+127	84107 33 337 337 20.000354017862 20.000354017862 1 12000000 12000000 12000000 1.44e+14
 vector 128 Scenario.node[16].wlan[0].mac packetSentToLower:vector(packetBytes) ETV
 attr interpolationmode none
 attr title "packets sent to lower layer, vector(packetBytes)"
+128	84140 28 337 337 20.000354017862 20.000354017862 1 158 158 158 24964
 vector 129 Scenario.node[16].wlan[0].mac.dcf frameSequenceActive:vector ETV
 attr interpolationmode sample-hold
 attr source count(frameSequenceStarted)-count(frameSequenceFinished)
 attr title "frame sequence active, vector"
+129	84168 52 337 359 20.000354017862 20.000506017862 2 0 1 1 1
 vector 130 Scenario.node[16].wlan[0].radio transmissionState:vector ETV
 attr interpolationmode sample-hold
 attr source transmissionStateChanged
 attr title "Radio transmission state, vector"
+130	84220 104 338 360 20.000354017862 20.000506017862 4 0 2 4 6
 vector 131 Scenario.node[16].wlan[0].mac.dcf packetSentToPeer:vector(packetBytes) ETV
 attr interpolationmode none
 attr title "packets sent, vector(packetBytes)"
+131	84324 28 359 359 20.000506017862 20.000506017862 1 158 158 158 24964
 vector 132 Scenario.node[16].wlan[0].mac.dcf packetSentToPeerMulticast:vector(packetBytes) ETV
 attr interpolationmode none
 attr source ieee80211Multicast(packetSentToPeer)
 attr title "packets sent: multicast, vector(packetBytes)"
+132	84352 28 359 359 20.000506017862 20.000506017862 1 158 158 158 24964
 vector 133 Scenario.node[16].wlan[0].mac.dcf packetSentToPeerWithoutRetry:vector(packetBytes) ETV
 attr interpolationmode none
 attr source ieee80211NotRetry(packetSentToPeer)
 attr title "packets sent: without retry, vector(packetBytes)"
+133	84380 28 359 359 20.000506017862 20.000506017862 1 158 158 158 24964
 vector 134 Scenario.node[16].wlan[0].mac.dcf.channelAccess.inProgressFrames queueingTime:vector ETV
 attr interpolationmode none
 attr source queueingTime(packetDequeued)
 attr title "queueing times, vector"
+134	84408 33 359 359 20.000506017862 20.000506017862 1 0.000152 0.000152 0.000152 2.3104e-08
 vector 135 Scenario.node[0].wlan[0].mac packetReceivedFromLower:vector(packetBytes) ETV
 attr interpolationmode none
 attr title "packets received from lower layer, vector(packetBytes)"
+135	84441 28 362 362 20.000507035724 20.000507035724 1 158 158 158 24964
 vector 136 Scenario.node[0].wlan[0].mac.dcf packetReceivedFromPeer:vector(packetBytes) ETV
 attr interpolationmode none
 attr title "packets received, vector(packetBytes)"
+136	84469 28 362 362 20.000507035724 20.000507035724 1 158 158 158 24964
 vector 137 Scenario.node[0].wlan[0].mac.dcf packetReceivedFromPeerMulticast:vector(packetBytes) ETV
 attr interpolationmode none
 attr source ieee80211Multicast(packetReceivedFromPeer)
 attr title "packets received: multicast, vector(packetBytes)"
+137	84497 28 362 362 20.000507035724 20.000507035724 1 158 158 158 24964
 vector 138 Scenario.node[0].wlan[0].mac.dcf packetReceivedFromPeerWithoutRetry:vector(packetBytes) ETV
 attr interpolationmode none
 attr source ieee80211NotRetry(packetReceivedFromPeer)
 attr title "packets received: without retry, vector(packetBytes)"
+138	84525 28 362 362 20.000507035724 20.000507035724 1 158 158 158 24964
 vector 139 Scenario.node[0].wlan[0].mac packetSentToUpper:vector(packetBytes) ETV
 attr interpolationmode none
 attr title "packets sent to upper layer, vector(packetBytes)"
+139	84553 28 362 362 20.000507035724 20.000507035724 1 130 130 130 16900
 vector 140 Scenario.node[20].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+140	84581 45 437 437 20.1 20.1 3 0 2 2 4
 vector 141 Scenario.node[20].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+141	84626 15 437 437 20.1 20.1 1 3 3 3 9
 vector 142 Scenario.node[20].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+142	84641 15 437 437 20.1 20.1 1 1 1 1 1
 vector 143 Scenario.node[20].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+143	84656 16 437 437 20.1 20.1 1 15 15 15 225
 vector 144 Scenario.node[21].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+144	84672 45 450 450 21.1 21.1 3 0 2 2 4
 vector 145 Scenario.node[21].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+145	84717 15 450 450 21.1 21.1 1 3 3 3 9
 vector 146 Scenario.node[21].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+146	84732 15 450 450 21.1 21.1 1 1 1 1 1
 vector 147 Scenario.node[21].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+147	84747 16 450 450 21.1 21.1 1 15 15 15 225
 vector 148 Scenario.node[22].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+148	84763 45 463 463 22.1 22.1 3 0 2 2 4
 vector 149 Scenario.node[22].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+149	84808 15 463 463 22.1 22.1 1 3 3 3 9
 vector 150 Scenario.node[22].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+150	84823 15 463 463 22.1 22.1 1 1 1 1 1
 vector 151 Scenario.node[22].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+151	84838 16 463 463 22.1 22.1 1 15 15 15 225
 vector 152 Scenario.node[23].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+152	84854 45 476 476 23.1 23.1 3 0 2 2 4
 vector 153 Scenario.node[23].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+153	84899 15 476 476 23.1 23.1 1 3 3 3 9
 vector 154 Scenario.node[23].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+154	84914 15 476 476 23.1 23.1 1 1 1 1 1
 vector 155 Scenario.node[23].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+155	84929 16 476 476 23.1 23.1 1 15 15 15 225
 vector 156 Scenario.node[24].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+156	84945 45 489 489 24.1 24.1 3 0 2 2 4
 vector 157 Scenario.node[24].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+157	84990 15 489 489 24.1 24.1 1 3 3 3 9
 vector 158 Scenario.node[24].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+158	85005 15 489 489 24.1 24.1 1 1 1 1 1
 vector 159 Scenario.node[24].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+159	85020 16 489 489 24.1 24.1 1 15 15 15 225
 vector 160 Scenario.node[25].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+160	85036 45 502 502 25.1 25.1 3 0 2 2 4
 vector 161 Scenario.node[25].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+161	85081 15 502 502 25.1 25.1 1 3 3 3 9
 vector 162 Scenario.node[25].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+162	85096 15 502 502 25.1 25.1 1 1 1 1 1
 vector 163 Scenario.node[25].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+163	85111 16 502 502 25.1 25.1 1 15 15 15 225
 vector 164 Scenario.node[26].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+164	85127 45 515 515 26.1 26.1 3 0 2 2 4
 vector 165 Scenario.node[26].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+165	85172 15 515 515 26.1 26.1 1 3 3 3 9
 vector 166 Scenario.node[26].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+166	85187 15 515 515 26.1 26.1 1 1 1 1 1
 vector 167 Scenario.node[26].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+167	85202 16 515 515 26.1 26.1 1 15 15 15 225
 vector 168 Scenario.node[27].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+168	85218 45 528 528 27.1 27.1 3 0 2 2 4
 vector 169 Scenario.node[27].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+169	85263 15 528 528 27.1 27.1 1 3 3 3 9
 vector 170 Scenario.node[27].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+170	85278 15 528 528 27.1 27.1 1 1 1 1 1
 vector 171 Scenario.node[27].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+171	85293 16 528 528 27.1 27.1 1 15 15 15 225
 vector 172 Scenario.node[28].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+172	85309 45 541 541 28.1 28.1 3 0 2 2 4
 vector 173 Scenario.node[28].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+173	85354 15 541 541 28.1 28.1 1 3 3 3 9
 vector 174 Scenario.node[28].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+174	85369 15 541 541 28.1 28.1 1 1 1 1 1
 vector 175 Scenario.node[28].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+175	85384 16 541 541 28.1 28.1 1 15 15 15 225
 vector 176 Scenario.node[29].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+176	85400 45 554 554 29.1 29.1 3 0 2 2 4
 vector 177 Scenario.node[29].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+177	85445 15 554 554 29.1 29.1 1 3 3 3 9
 vector 178 Scenario.node[29].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+178	85460 15 554 554 29.1 29.1 1 1 1 1 1
 vector 179 Scenario.node[29].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+179	85475 16 554 554 29.1 29.1 1 15 15 15 225
 vector 180 Scenario.node[30].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+180	85491 45 567 567 30.1 30.1 3 0 2 2 4
 vector 181 Scenario.node[30].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+181	85536 15 567 567 30.1 30.1 1 3 3 3 9
 vector 182 Scenario.node[30].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+182	85551 15 567 567 30.1 30.1 1 1 1 1 1
 vector 183 Scenario.node[30].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+183	85566 16 567 567 30.1 30.1 1 15 15 15 225
 vector 184 Scenario.node[31].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+184	85582 45 580 580 31.1 31.1 3 0 2 2 4
 vector 185 Scenario.node[31].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+185	85627 15 580 580 31.1 31.1 1 3 3 3 9
 vector 186 Scenario.node[31].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+186	85642 15 580 580 31.1 31.1 1 1 1 1 1
 vector 187 Scenario.node[31].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+187	85657 16 580 580 31.1 31.1 1 15 15 15 225
 vector 188 Scenario.node[32].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+188	85673 45 593 593 32.1 32.1 3 0 2 2 4
 vector 189 Scenario.node[32].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+189	85718 15 593 593 32.1 32.1 1 3 3 3 9
 vector 190 Scenario.node[32].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+190	85733 15 593 593 32.1 32.1 1 1 1 1 1
 vector 191 Scenario.node[32].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+191	85748 16 593 593 32.1 32.1 1 15 15 15 225
 vector 192 Scenario.node[33].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+192	85764 45 606 606 33.1 33.1 3 0 2 2 4
 vector 193 Scenario.node[33].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+193	85809 15 606 606 33.1 33.1 1 3 3 3 9
 vector 194 Scenario.node[33].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+194	85824 15 606 606 33.1 33.1 1 1 1 1 1
 vector 195 Scenario.node[33].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+195	85839 16 606 606 33.1 33.1 1 15 15 15 225
 vector 196 Scenario.node[34].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+196	85855 45 619 619 34.1 34.1 3 0 2 2 4
 vector 197 Scenario.node[34].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+197	85900 15 619 619 34.1 34.1 1 3 3 3 9
 vector 198 Scenario.node[34].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+198	85915 15 619 619 34.1 34.1 1 1 1 1 1
 vector 199 Scenario.node[34].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+199	85930 16 619 619 34.1 34.1 1 15 15 15 225
 vector 200 Scenario.node[35].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+200	85946 45 632 632 35.1 35.1 3 0 2 2 4
 vector 201 Scenario.node[35].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+201	85991 15 632 632 35.1 35.1 1 3 3 3 9
 vector 202 Scenario.node[35].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+202	86006 15 632 632 35.1 35.1 1 1 1 1 1
 vector 203 Scenario.node[35].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+203	86021 16 632 632 35.1 35.1 1 15 15 15 225
 vector 204 Scenario.node[36].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+204	86037 45 645 645 36.1 36.1 3 0 2 2 4
 vector 205 Scenario.node[36].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+205	86082 15 645 645 36.1 36.1 1 3 3 3 9
 vector 206 Scenario.node[36].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+206	86097 15 645 645 36.1 36.1 1 1 1 1 1
 vector 207 Scenario.node[36].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+207	86112 16 645 645 36.1 36.1 1 15 15 15 225
 vector 208 Scenario.node[37].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+208	86128 45 658 658 37.1 37.1 3 0 2 2 4
 vector 209 Scenario.node[37].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+209	86173 15 658 658 37.1 37.1 1 3 3 3 9
 vector 210 Scenario.node[37].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+210	86188 15 658 658 37.1 37.1 1 1 1 1 1
 vector 211 Scenario.node[37].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+211	86203 16 658 658 37.1 37.1 1 15 15 15 225
 vector 212 Scenario.node[38].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+212	86219 45 671 671 38.1 38.1 3 0 2 2 4
 vector 213 Scenario.node[38].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+213	86264 15 671 671 38.1 38.1 1 3 3 3 9
 vector 214 Scenario.node[38].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+214	86279 15 671 671 38.1 38.1 1 1 1 1 1
 vector 215 Scenario.node[38].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+215	86294 16 671 671 38.1 38.1 1 15 15 15 225
 vector 216 Scenario.node[39].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+216	86310 45 684 684 39.1 39.1 3 0 2 2 4
 vector 217 Scenario.node[39].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+217	86355 15 684 684 39.1 39.1 1 3 3 3 9
 vector 218 Scenario.node[39].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+218	86370 15 684 684 39.1 39.1 1 1 1 1 1
 vector 219 Scenario.node[39].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+219	86385 16 684 684 39.1 39.1 1 15 15 15 225
 vector 220 Scenario.node[40].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+220	86401 45 697 697 40.1 40.1 3 0 2 2 4
 vector 221 Scenario.node[40].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+221	86446 15 697 697 40.1 40.1 1 3 3 3 9
 vector 222 Scenario.node[40].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+222	86461 15 697 697 40.1 40.1 1 1 1 1 1
 vector 223 Scenario.node[40].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+223	86476 16 697 697 40.1 40.1 1 15 15 15 225
 vector 224 Scenario.node[41].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+224	86492 45 710 710 41.1 41.1 3 0 2 2 4
 vector 225 Scenario.node[41].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+225	86537 15 710 710 41.1 41.1 1 3 3 3 9
 vector 226 Scenario.node[41].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+226	86552 15 710 710 41.1 41.1 1 1 1 1 1
 vector 227 Scenario.node[41].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+227	86567 16 710 710 41.1 41.1 1 15 15 15 225
 vector 228 Scenario.node[42].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+228	86583 45 723 723 42.1 42.1 3 0 2 2 4
 vector 229 Scenario.node[42].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+229	86628 15 723 723 42.1 42.1 1 3 3 3 9
 vector 230 Scenario.node[42].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+230	86643 15 723 723 42.1 42.1 1 1 1 1 1
 vector 231 Scenario.node[42].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+231	86658 16 723 723 42.1 42.1 1 15 15 15 225
 vector 232 Scenario.node[43].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+232	86674 45 736 736 43.1 43.1 3 0 2 2 4
 vector 233 Scenario.node[43].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+233	86719 15 736 736 43.1 43.1 1 3 3 3 9
 vector 234 Scenario.node[43].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+234	86734 15 736 736 43.1 43.1 1 1 1 1 1
 vector 235 Scenario.node[43].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+235	86749 16 736 736 43.1 43.1 1 15 15 15 225
 vector 236 Scenario.node[44].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+236	86765 45 749 749 44.1 44.1 3 0 2 2 4
 vector 237 Scenario.node[44].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+237	86810 15 749 749 44.1 44.1 1 3 3 3 9
 vector 238 Scenario.node[44].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+238	86825 15 749 749 44.1 44.1 1 1 1 1 1
 vector 239 Scenario.node[44].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+239	86840 16 749 749 44.1 44.1 1 15 15 15 225
 vector 240 Scenario.node[45].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+240	86856 45 762 762 45.1 45.1 3 0 2 2 4
 vector 241 Scenario.node[45].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+241	86901 15 762 762 45.1 45.1 1 3 3 3 9
 vector 242 Scenario.node[45].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+242	86916 15 762 762 45.1 45.1 1 1 1 1 1
 vector 243 Scenario.node[45].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+243	86931 16 762 762 45.1 45.1 1 15 15 15 225
 vector 244 Scenario.node[46].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+244	86947 45 775 775 46.1 46.1 3 0 2 2 4
 vector 245 Scenario.node[46].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+245	86992 15 775 775 46.1 46.1 1 3 3 3 9
 vector 246 Scenario.node[46].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+246	87007 15 775 775 46.1 46.1 1 1 1 1 1
 vector 247 Scenario.node[46].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+247	87022 16 775 775 46.1 46.1 1 15 15 15 225
 vector 248 Scenario.node[47].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+248	87038 45 788 788 47.1 47.1 3 0 2 2 4
 vector 249 Scenario.node[47].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+249	87083 15 788 788 47.1 47.1 1 3 3 3 9
 vector 250 Scenario.node[47].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+250	87098 15 788 788 47.1 47.1 1 1 1 1 1
 vector 251 Scenario.node[47].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+251	87113 16 788 788 47.1 47.1 1 15 15 15 225
 vector 252 Scenario.node[48].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+252	87129 45 801 801 48.1 48.1 3 0 2 2 4
 vector 253 Scenario.node[48].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+253	87174 15 801 801 48.1 48.1 1 3 3 3 9
 vector 254 Scenario.node[48].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+254	87189 15 801 801 48.1 48.1 1 1 1 1 1
 vector 255 Scenario.node[48].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+255	87204 16 801 801 48.1 48.1 1 15 15 15 225
 vector 256 Scenario.node[49].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+256	87220 45 814 814 49.1 49.1 3 0 2 2 4
 vector 257 Scenario.node[49].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+257	87265 15 814 814 49.1 49.1 1 3 3 3 9
 vector 258 Scenario.node[49].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+258	87280 15 814 814 49.1 49.1 1 1 1 1 1
 vector 259 Scenario.node[49].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+259	87295 16 814 814 49.1 49.1 1 15 15 15 225
 vector 260 Scenario.node[50].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+260	87311 45 828 828 50.1 50.1 3 0 2 2 4
 vector 261 Scenario.node[50].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+261	87356 15 828 828 50.1 50.1 1 3 3 3 9
 vector 262 Scenario.node[50].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+262	87371 15 828 828 50.1 50.1 1 1 1 1 1
 vector 263 Scenario.node[50].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+263	87386 16 828 828 50.1 50.1 1 15 15 15 225
 vector 264 Scenario.node[51].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+264	87402 45 841 841 51.1 51.1 3 0 2 2 4
 vector 265 Scenario.node[51].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+265	87447 15 841 841 51.1 51.1 1 3 3 3 9
 vector 266 Scenario.node[51].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+266	87462 15 841 841 51.1 51.1 1 1 1 1 1
 vector 267 Scenario.node[51].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+267	87477 16 841 841 51.1 51.1 1 15 15 15 225
 vector 268 Scenario.node[52].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+268	87493 45 854 854 52.1 52.1 3 0 2 2 4
 vector 269 Scenario.node[52].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+269	87538 15 854 854 52.1 52.1 1 3 3 3 9
 vector 270 Scenario.node[52].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+270	87553 15 854 854 52.1 52.1 1 1 1 1 1
 vector 271 Scenario.node[52].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+271	87568 16 854 854 52.1 52.1 1 15 15 15 225
 vector 272 Scenario.node[53].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+272	87584 45 867 867 53.1 53.1 3 0 2 2 4
 vector 273 Scenario.node[53].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+273	87629 15 867 867 53.1 53.1 1 3 3 3 9
 vector 274 Scenario.node[53].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+274	87644 15 867 867 53.1 53.1 1 1 1 1 1
 vector 275 Scenario.node[53].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+275	87659 16 867 867 53.1 53.1 1 15 15 15 225
 vector 276 Scenario.node[54].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+276	87675 45 880 880 54.1 54.1 3 0 2 2 4
 vector 277 Scenario.node[54].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+277	87720 15 880 880 54.1 54.1 1 3 3 3 9
 vector 278 Scenario.node[54].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+278	87735 15 880 880 54.1 54.1 1 1 1 1 1
 vector 279 Scenario.node[54].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+279	87750 16 880 880 54.1 54.1 1 15 15 15 225
 vector 280 Scenario.node[55].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+280	87766 45 893 893 55.1 55.1 3 0 2 2 4
 vector 281 Scenario.node[55].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+281	87811 15 893 893 55.1 55.1 1 3 3 3 9
 vector 282 Scenario.node[55].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+282	87826 15 893 893 55.1 55.1 1 1 1 1 1
 vector 283 Scenario.node[55].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+283	87841 16 893 893 55.1 55.1 1 15 15 15 225
 vector 284 Scenario.node[56].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+284	87857 45 906 906 56.1 56.1 3 0 2 2 4
 vector 285 Scenario.node[56].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+285	87902 15 906 906 56.1 56.1 1 3 3 3 9
 vector 286 Scenario.node[56].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+286	87917 15 906 906 56.1 56.1 1 1 1 1 1
 vector 287 Scenario.node[56].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+287	87932 16 906 906 56.1 56.1 1 15 15 15 225
 vector 288 Scenario.node[57].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+288	87948 45 919 919 57.1 57.1 3 0 2 2 4
 vector 289 Scenario.node[57].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+289	87993 15 919 919 57.1 57.1 1 3 3 3 9
 vector 290 Scenario.node[57].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+290	88008 15 919 919 57.1 57.1 1 1 1 1 1
 vector 291 Scenario.node[57].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+291	88023 16 919 919 57.1 57.1 1 15 15 15 225
 vector 292 Scenario.node[58].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+292	88039 45 932 932 58.1 58.1 3 0 2 2 4
 vector 293 Scenario.node[58].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+293	88084 15 932 932 58.1 58.1 1 3 3 3 9
 vector 294 Scenario.node[58].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+294	88099 15 932 932 58.1 58.1 1 1 1 1 1
 vector 295 Scenario.node[58].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+295	88114 16 932 932 58.1 58.1 1 15 15 15 225
 vector 296 Scenario.node[59].wlan[0].radio radioMode:vector ETV
 attr interpolationmode sample-hold
 attr source radioModeChanged
 attr title "Radio mode, vector"
+296	88130 45 945 945 59.1 59.1 3 0 2 2 4
 vector 297 Scenario.node[59].wlan[0].radio radioChannel:vector ETV
 attr interpolationmode sample-hold
 attr source radioChannelChanged
 attr title "Radio channel, vector"
+297	88175 15 945 945 59.1 59.1 1 3 3 3 9
 vector 298 Scenario.node[59].wlan[0].radio receptionState:vector ETV
 attr interpolationmode sample-hold
 attr source receptionStateChanged
 attr title "Radio reception state, vector"
+298	88190 15 945 945 59.1 59.1 1 1 1 1 1
 vector 299 Scenario.node[59].wlan[0].mac.dcf.recoveryProcedure contentionWindowChanged:vector ETV
 attr interpolationmode sample-hold
 attr title "contention window, vector"
+299	88205 16 945 945 59.1 59.1 1 15 15 15 225
 vector 300 Scenario.node[1].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+300	88221 8781 958 958 0.1 60 600 0 0 0 0
 vector 301 Scenario.node[2].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+301	97002 8781 958 958 0.1 60 600 0 0 0 0
 vector 302 Scenario.node[3].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+302	105783 8781 958 958 0.1 60 600 0 0 0 0
 vector 303 Scenario.node[4].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+303	114564 8781 958 958 0.1 60 600 0 0 0 0
 vector 304 Scenario.node[5].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+304	123345 8781 958 958 0.1 60 600 0 0 0 0
 vector 305 Scenario.node[6].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+305	132126 8781 958 958 0.1 60 600 0 0 0 0
 vector 306 Scenario.node[7].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+306	140907 8781 958 958 0.1 60 600 0 0 0 0
 vector 307 Scenario.node[8].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+307	149688 8781 958 958 0.1 60 600 0 0 0 0
 vector 308 Scenario.node[9].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+308	158469 8781 958 958 0.1 60 600 0 0 0 0
 vector 309 Scenario.node[10].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+309	167250 8781 958 958 0.1 60 600 0 0 0 0
 vector 310 Scenario.node[11].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+310	176031 8781 958 958 0.1 60 600 0 0 0 0
 vector 311 Scenario.node[12].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+311	184812 8781 958 958 0.1 60 600 0 0 0 0
 vector 312 Scenario.node[13].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+312	193593 8781 958 958 0.1 60 600 0 0 0 0
 vector 313 Scenario.node[14].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+313	202374 8781 958 958 0.1 60 600 0 0 0 0
 vector 314 Scenario.node[15].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+314	211155 8781 958 958 0.1 60 600 0 0 0 0
 vector 315 Scenario.node[17].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+315	219936 8781 958 958 0.1 60 600 0 0 0 0
 vector 316 Scenario.node[18].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+316	228717 8781 958 958 0.1 60 600 0 0 0 0
 vector 317 Scenario.node[19].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+317	237498 8781 958 958 0.1 60 600 0 0 0 0
 vector 318 Scenario.node[20].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+318	246279 8781 958 958 0.1 60 600 0 0 0 0
 vector 319 Scenario.node[21].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+319	255060 8781 958 958 0.1 60 600 0 0 0 0
 vector 320 Scenario.node[22].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+320	263841 8781 958 958 0.1 60 600 0 0 0 0
 vector 321 Scenario.node[23].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+321	272622 8781 958 958 0.1 60 600 0 0 0 0
 vector 322 Scenario.node[24].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+322	281403 8781 958 958 0.1 60 600 0 0 0 0
 vector 323 Scenario.node[25].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+323	290184 8781 958 958 0.1 60 600 0 0 0 0
 vector 324 Scenario.node[26].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+324	298965 8781 958 958 0.1 60 600 0 0 0 0
 vector 325 Scenario.node[27].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+325	307746 8781 958 958 0.1 60 600 0 0 0 0
 vector 326 Scenario.node[28].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+326	316527 8781 958 958 0.1 60 600 0 0 0 0
 vector 327 Scenario.node[29].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+327	325308 8781 958 958 0.1 60 600 0 0 0 0
 vector 328 Scenario.node[30].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+328	334089 8781 958 958 0.1 60 600 0 0 0 0
 vector 329 Scenario.node[31].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+329	342870 8781 958 958 0.1 60 600 0 0 0 0
 vector 330 Scenario.node[32].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+330	351651 8781 958 958 0.1 60 600 0 0 0 0
 vector 331 Scenario.node[33].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+331	360432 8781 958 958 0.1 60 600 0 0 0 0
 vector 332 Scenario.node[34].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+332	369213 8781 958 958 0.1 60 600 0 0 0 0
 vector 333 Scenario.node[35].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+333	377994 8781 958 958 0.1 60 600 0 0 0 0
 vector 334 Scenario.node[36].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+334	386775 8781 958 958 0.1 60 600 0 0 0 0
 vector 335 Scenario.node[37].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+335	395556 8781 958 958 0.1 60 600 0 0 0 0
 vector 336 Scenario.node[38].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+336	404337 8781 958 958 0.1 60 600 0 0 0 0
 vector 337 Scenario.node[39].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+337	413118 8781 958 958 0.1 60 600 0 0 0 0
 vector 338 Scenario.node[40].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+338	421899 8781 958 958 0.1 60 600 0 0 0 0
 vector 339 Scenario.node[41].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+339	430680 8781 958 958 0.1 60 600 0 0 0 0
 vector 340 Scenario.node[42].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+340	439461 8781 958 958 0.1 60 600 0 0 0 0
 vector 341 Scenario.node[43].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+341	448242 8781 958 958 0.1 60 600 0 0 0 0
 vector 342 Scenario.node[44].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+342	457023 8781 958 958 0.1 60 600 0 0 0 0
 vector 343 Scenario.node[45].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+343	465804 8781 958 958 0.1 60 600 0 0 0 0
 vector 344 Scenario.node[46].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+344	474585 8781 958 958 0.1 60 600 0 0 0 0
 vector 345 Scenario.node[47].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+345	483366 8781 958 958 0.1 60 600 0 0 0 0
 vector 346 Scenario.node[48].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+346	492147 8781 958 958 0.1 60 600 0 0 0 0
 vector 347 Scenario.node[49].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+347	500928 8781 958 958 0.1 60 600 0 0 0 0
 vector 348 Scenario.node[50].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+348	509709 8781 958 958 0.1 60 600 0 0 0 0
 vector 349 Scenario.node[51].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+349	518490 8781 958 958 0.1 60 600 0 0 0 0
 vector 350 Scenario.node[52].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+350	527271 8781 958 958 0.1 60 600 0 0 0 0
 vector 351 Scenario.node[53].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+351	536052 8781 958 958 0.1 60 600 0 0 0 0
 vector 352 Scenario.node[54].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+352	544833 8781 958 958 0.1 60 600 0 0 0 0
 vector 353 Scenario.node[55].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+353	553614 8781 958 958 0.1 60 600 0 0 0 0
 vector 354 Scenario.node[56].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+354	562395 8781 958 958 0.1 60 600 0 0 0 0
 vector 355 Scenario.node[57].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+355	571176 8781 958 958 0.1 60 600 0 0 0 0
 vector 356 Scenario.node[58].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
+356	579957 8781 958 958 0.1 60 600 0 0 0 0
 vector 357 Scenario.node[59].app[0] throughput:vector ETV
 attr source throughput(packetReceived)
 attr title "throughput, vector"
 attr unit bps
-0	62844 107 2 409 0.1 20.000756035724 7 0 3 12 30
-1	62951 10 2 2 0.1 0.1 1 3 3 3 9
-2	62961 135 2 409 0.1 20.000756035724 7 0 3 7 13
-3	63096 11 2 2 0.1 0.1 1 15 15 15 225
-4	63107 33 15 15 1.1 1.1 3 0 2 2 4
-5	63140 11 15 15 1.1 1.1 1 3 3 3 9
-6	63151 11 15 15 1.1 1.1 1 1 1 1 1
-7	63162 12 15 15 1.1 1.1 1 15 15 15 225
-8	63174 33 28 28 2.1 2.1 3 0 2 2 4
-9	63207 11 28 28 2.1 2.1 1 3 3 3 9
-10	63218 12 28 28 2.1 2.1 1 1 1 1 1
-11	63230 13 28 28 2.1 2.1 1 15 15 15 225
-12	63243 36 41 41 3.1 3.1 3 0 2 2 4
-13	63279 12 41 41 3.1 3.1 1 3 3 3 9
-14	63291 12 41 41 3.1 3.1 1 1 1 1 1
-15	63303 13 41 41 3.1 3.1 1 15 15 15 225
-16	63316 36 54 54 4.1 4.1 3 0 2 2 4
-17	63352 12 54 54 4.1 4.1 1 3 3 3 9
-18	63364 12 54 54 4.1 4.1 1 1 1 1 1
-19	63376 13 54 54 4.1 4.1 1 15 15 15 225
-20	63389 36 67 67 5.1 5.1 3 0 2 2 4
-21	63425 12 67 67 5.1 5.1 1 3 3 3 9
-22	63437 12 67 67 5.1 5.1 1 1 1 1 1
-23	63449 13 67 67 5.1 5.1 1 15 15 15 225
-24	63462 36 80 80 6.1 6.1 3 0 2 2 4
-25	63498 12 80 80 6.1 6.1 1 3 3 3 9
-26	63510 12 80 80 6.1 6.1 1 1 1 1 1
-27	63522 13 80 80 6.1 6.1 1 15 15 15 225
-28	63535 36 93 93 7.1 7.1 3 0 2 2 4
-29	63571 12 93 93 7.1 7.1 1 3 3 3 9
-30	63583 12 93 93 7.1 7.1 1 1 1 1 1
-31	63595 13 93 93 7.1 7.1 1 15 15 15 225
-32	63608 39 106 106 8.1 8.1 3 0 2 2 4
-33	63647 13 106 106 8.1 8.1 1 3 3 3 9
-34	63660 13 106 106 8.1 8.1 1 1 1 1 1
-35	63673 14 106 106 8.1 8.1 1 15 15 15 225
-36	63687 39 119 119 9.1 9.1 3 0 2 2 4
-37	63726 13 119 119 9.1 9.1 1 3 3 3 9
-38	63739 13 119 119 9.1 9.1 1 1 1 1 1
-39	63752 14 119 119 9.1 9.1 1 15 15 15 225
-40	63766 42 132 132 10.1 10.1 3 0 2 2 4
-41	63808 14 132 132 10.1 10.1 1 3 3 3 9
-42	63822 14 132 132 10.1 10.1 1 1 1 1 1
-43	63836 15 132 132 10.1 10.1 1 15 15 15 225
-44	63851 42 145 145 11.1 11.1 3 0 2 2 4
-45	63893 14 145 145 11.1 11.1 1 3 3 3 9
-46	63907 14 145 145 11.1 11.1 1 1 1 1 1
-47	63921 15 145 145 11.1 11.1 1 15 15 15 225
-48	63936 42 158 158 12.1 12.1 3 0 2 2 4
-49	63978 14 158 158 12.1 12.1 1 3 3 3 9
-50	63992 14 158 158 12.1 12.1 1 1 1 1 1
-51	64006 15 158 158 12.1 12.1 1 15 15 15 225
-52	64021 42 171 171 13.1 13.1 3 0 2 2 4
-53	64063 14 171 171 13.1 13.1 1 3 3 3 9
-54	64077 14 171 171 13.1 13.1 1 1 1 1 1
-55	64091 15 171 171 13.1 13.1 1 15 15 15 225
-56	64106 42 184 184 14.1 14.1 3 0 2 2 4
-57	64148 14 184 184 14.1 14.1 1 3 3 3 9
-58	64162 14 184 184 14.1 14.1 1 1 1 1 1
-59	64176 15 184 184 14.1 14.1 1 15 15 15 225
-60	64191 42 197 197 15.1 15.1 3 0 2 2 4
-61	64233 14 197 197 15.1 15.1 1 3 3 3 9
-62	64247 14 197 197 15.1 15.1 1 1 1 1 1
-63	64261 15 197 197 15.1 15.1 1 15 15 15 225
-64	64276 92 210 360 16.1 20.000506017862 5 0 3 7 17
-65	64368 14 210 210 16.1 16.1 1 3 3 3 9
-66	64382 164 210 410 16.1 20.000757053586 7 0 3 10 22
-67	64546 15 210 210 16.1 16.1 1 15 15 15 225
-68	64561 42 223 223 17.1 17.1 3 0 2 2 4
-69	64603 14 223 223 17.1 17.1 1 3 3 3 9
-70	64617 14 223 223 17.1 17.1 1 1 1 1 1
-71	64631 15 223 223 17.1 17.1 1 15 15 15 225
-72	64646 42 236 236 18.1 18.1 3 0 2 2 4
-73	64688 14 236 236 18.1 18.1 1 3 3 3 9
-74	64702 14 236 236 18.1 18.1 1 1 1 1 1
-75	64716 15 236 236 18.1 18.1 1 15 15 15 225
-76	64731 42 249 249 19.1 19.1 3 0 2 2 4
-77	64773 14 249 249 19.1 19.1 1 3 3 3 9
-78	64787 14 249 249 19.1 19.1 1 1 1 1 1
-79	64801 15 249 249 19.1 19.1 1 15 15 15 225
-80	64816 28 261 270 20 20 2 100 100 200 20000
-81	64844 28 263 271 20 20 2 108 108 216 23328
-82	64872 28 265 273 20 20 2 128 128 256 32768
-83	64900 28 265 273 20 20 2 128 128 256 32768
-84	64928 28 268 276 20 20 2 130 130 260 33800
-85	64956 28 268 276 20 20 2 158 158 316 49928
-86	64984 48 268 280 20 20 4 0 2 4 6
-87	65032 32 268 302 20 20.000152 2 3 14 17 205
-88	65064 118 268 385 20 20.000604035724 6 0 1 3 3
-89	65182 55 269 365 20 20.000507035724 3 108 108 324 34992
-90	65237 49 269 365 20 20.000507035724 3 1 3 6 14
-91	65286 55 270 366 20 20.000507035724 3 100 100 300 30000
-92	65341 8185 270 958 0.1 60 600 0 24000 24000 576000000
-93	73526 62 270 366 20 20.000507035724 3 0 0.000507035724 0.000507035724 2.570852254122e-07
-94	73588 28 280 280 20 20 2 158 158 316 49928
-95	73616 24 280 280 20 20 2 0 0 0 0
-96	73640 68 280 408 20 20.000756035724 4 0 2 4 6
-97	73708 51 280 386 20 20.000604035724 2 12000000 12000000 24000000 2.88e+14
-98	73759 41 280 386 20 20.000604035724 2 158 158 316 49928
-99	73800 81 280 408 20 20.000756035724 4 0 1 2 2
-100	73881 170 281 409 20 20.000756035724 8 0 2 8 12
-101	74051 50 302 408 20.000152 20.000756035724 2 158 158 316 49928
-102	74101 50 302 408 20.000152 20.000756035724 2 158 158 316 49928
-103	74151 50 302 408 20.000152 20.000756035724 2 158 158 316 49928
-104	74201 66 302 408 20.000152 20.000756035724 2 0.000152 0.000756035724 0.000908035724 5.946940159642e-07
-105	74267 56 305 411 20.000153017862 20.000757053586 2 158 158 316 49928
-106	74323 56 305 411 20.000153017862 20.000757053586 2 158 158 316 49928
-107	74379 56 305 411 20.000153017862 20.000757053586 2 158 158 316 49928
-108	74435 56 305 411 20.000153017862 20.000757053586 2 158 158 316 49928
-109	74491 56 305 411 20.000153017862 20.000757053586 2 130 130 260 33800
-110	74547 84 308 414 20.000153017862 20.000757053586 3 108 108 324 34992
-111	74631 78 308 414 20.000153017862 20.000757053586 3 1 3 6 14
-112	74709 84 309 415 20.000153017862 20.000757053586 3 100 100 300 30000
-113	74793 8785 309 958 0.1 60 600 0 24000 24000 576000000
-114	83578 117 309 415 20.000153017862 20.000757053586 3 0.000153017862 0.000757053586 0.00106308931 6.1995906425756e-07
-115	83695 28 309 309 20.000153017862 20.000153017862 1 100 100 100 10000
-116	83723 28 310 310 20.000153017862 20.000153017862 1 108 108 108 11664
-117	83751 28 312 312 20.000153017862 20.000153017862 1 128 128 128 16384
-118	83779 28 312 312 20.000153017862 20.000153017862 1 128 128 128 16384
-119	83807 28 315 315 20.000153017862 20.000153017862 1 130 130 130 16900
-120	83835 28 315 315 20.000153017862 20.000153017862 1 158 158 158 24964
-121	83863 52 315 337 20.000153017862 20.000354017862 2 0 1 1 1
-122	83915 27 315 315 20.000153017862 20.000153017862 1 11 11 11 121
-123	83942 52 315 336 20.000153017862 20.000354017862 2 0 1 1 1
-124	83994 28 337 337 20.000354017862 20.000354017862 1 158 158 158 24964
-125	84022 33 337 337 20.000354017862 20.000354017862 1 0.000201 0.000201 0.000201 4.0401e-08
-126	84055 52 337 359 20.000354017862 20.000506017862 2 0 1 1 1
-127	84107 33 337 337 20.000354017862 20.000354017862 1 12000000 12000000 12000000 1.44e+14
-128	84140 28 337 337 20.000354017862 20.000354017862 1 158 158 158 24964
-129	84168 52 337 359 20.000354017862 20.000506017862 2 0 1 1 1
-130	84220 104 338 360 20.000354017862 20.000506017862 4 0 2 4 6
-131	84324 28 359 359 20.000506017862 20.000506017862 1 158 158 158 24964
-132	84352 28 359 359 20.000506017862 20.000506017862 1 158 158 158 24964
-133	84380 28 359 359 20.000506017862 20.000506017862 1 158 158 158 24964
-134	84408 33 359 359 20.000506017862 20.000506017862 1 0.000152 0.000152 0.000152 2.3104e-08
-135	84441 28 362 362 20.000507035724 20.000507035724 1 158 158 158 24964
-136	84469 28 362 362 20.000507035724 20.000507035724 1 158 158 158 24964
-137	84497 28 362 362 20.000507035724 20.000507035724 1 158 158 158 24964
-138	84525 28 362 362 20.000507035724 20.000507035724 1 158 158 158 24964
-139	84553 28 362 362 20.000507035724 20.000507035724 1 130 130 130 16900
-140	84581 45 437 437 20.1 20.1 3 0 2 2 4
-141	84626 15 437 437 20.1 20.1 1 3 3 3 9
-142	84641 15 437 437 20.1 20.1 1 1 1 1 1
-143	84656 16 437 437 20.1 20.1 1 15 15 15 225
-144	84672 45 450 450 21.1 21.1 3 0 2 2 4
-145	84717 15 450 450 21.1 21.1 1 3 3 3 9
-146	84732 15 450 450 21.1 21.1 1 1 1 1 1
-147	84747 16 450 450 21.1 21.1 1 15 15 15 225
-148	84763 45 463 463 22.1 22.1 3 0 2 2 4
-149	84808 15 463 463 22.1 22.1 1 3 3 3 9
-150	84823 15 463 463 22.1 22.1 1 1 1 1 1
-151	84838 16 463 463 22.1 22.1 1 15 15 15 225
-152	84854 45 476 476 23.1 23.1 3 0 2 2 4
-153	84899 15 476 476 23.1 23.1 1 3 3 3 9
-154	84914 15 476 476 23.1 23.1 1 1 1 1 1
-155	84929 16 476 476 23.1 23.1 1 15 15 15 225
-156	84945 45 489 489 24.1 24.1 3 0 2 2 4
-157	84990 15 489 489 24.1 24.1 1 3 3 3 9
-158	85005 15 489 489 24.1 24.1 1 1 1 1 1
-159	85020 16 489 489 24.1 24.1 1 15 15 15 225
-160	85036 45 502 502 25.1 25.1 3 0 2 2 4
-161	85081 15 502 502 25.1 25.1 1 3 3 3 9
-162	85096 15 502 502 25.1 25.1 1 1 1 1 1
-163	85111 16 502 502 25.1 25.1 1 15 15 15 225
-164	85127 45 515 515 26.1 26.1 3 0 2 2 4
-165	85172 15 515 515 26.1 26.1 1 3 3 3 9
-166	85187 15 515 515 26.1 26.1 1 1 1 1 1
-167	85202 16 515 515 26.1 26.1 1 15 15 15 225
-168	85218 45 528 528 27.1 27.1 3 0 2 2 4
-169	85263 15 528 528 27.1 27.1 1 3 3 3 9
-170	85278 15 528 528 27.1 27.1 1 1 1 1 1
-171	85293 16 528 528 27.1 27.1 1 15 15 15 225
-172	85309 45 541 541 28.1 28.1 3 0 2 2 4
-173	85354 15 541 541 28.1 28.1 1 3 3 3 9
-174	85369 15 541 541 28.1 28.1 1 1 1 1 1
-175	85384 16 541 541 28.1 28.1 1 15 15 15 225
-176	85400 45 554 554 29.1 29.1 3 0 2 2 4
-177	85445 15 554 554 29.1 29.1 1 3 3 3 9
-178	85460 15 554 554 29.1 29.1 1 1 1 1 1
-179	85475 16 554 554 29.1 29.1 1 15 15 15 225
-180	85491 45 567 567 30.1 30.1 3 0 2 2 4
-181	85536 15 567 567 30.1 30.1 1 3 3 3 9
-182	85551 15 567 567 30.1 30.1 1 1 1 1 1
-183	85566 16 567 567 30.1 30.1 1 15 15 15 225
-184	85582 45 580 580 31.1 31.1 3 0 2 2 4
-185	85627 15 580 580 31.1 31.1 1 3 3 3 9
-186	85642 15 580 580 31.1 31.1 1 1 1 1 1
-187	85657 16 580 580 31.1 31.1 1 15 15 15 225
-188	85673 45 593 593 32.1 32.1 3 0 2 2 4
-189	85718 15 593 593 32.1 32.1 1 3 3 3 9
-190	85733 15 593 593 32.1 32.1 1 1 1 1 1
-191	85748 16 593 593 32.1 32.1 1 15 15 15 225
-192	85764 45 606 606 33.1 33.1 3 0 2 2 4
-193	85809 15 606 606 33.1 33.1 1 3 3 3 9
-194	85824 15 606 606 33.1 33.1 1 1 1 1 1
-195	85839 16 606 606 33.1 33.1 1 15 15 15 225
-196	85855 45 619 619 34.1 34.1 3 0 2 2 4
-197	85900 15 619 619 34.1 34.1 1 3 3 3 9
-198	85915 15 619 619 34.1 34.1 1 1 1 1 1
-199	85930 16 619 619 34.1 34.1 1 15 15 15 225
-200	85946 45 632 632 35.1 35.1 3 0 2 2 4
-201	85991 15 632 632 35.1 35.1 1 3 3 3 9
-202	86006 15 632 632 35.1 35.1 1 1 1 1 1
-203	86021 16 632 632 35.1 35.1 1 15 15 15 225
-204	86037 45 645 645 36.1 36.1 3 0 2 2 4
-205	86082 15 645 645 36.1 36.1 1 3 3 3 9
-206	86097 15 645 645 36.1 36.1 1 1 1 1 1
-207	86112 16 645 645 36.1 36.1 1 15 15 15 225
-208	86128 45 658 658 37.1 37.1 3 0 2 2 4
-209	86173 15 658 658 37.1 37.1 1 3 3 3 9
-210	86188 15 658 658 37.1 37.1 1 1 1 1 1
-211	86203 16 658 658 37.1 37.1 1 15 15 15 225
-212	86219 45 671 671 38.1 38.1 3 0 2 2 4
-213	86264 15 671 671 38.1 38.1 1 3 3 3 9
-214	86279 15 671 671 38.1 38.1 1 1 1 1 1
-215	86294 16 671 671 38.1 38.1 1 15 15 15 225
-216	86310 45 684 684 39.1 39.1 3 0 2 2 4
-217	86355 15 684 684 39.1 39.1 1 3 3 3 9
-218	86370 15 684 684 39.1 39.1 1 1 1 1 1
-219	86385 16 684 684 39.1 39.1 1 15 15 15 225
-220	86401 45 697 697 40.1 40.1 3 0 2 2 4
-221	86446 15 697 697 40.1 40.1 1 3 3 3 9
-222	86461 15 697 697 40.1 40.1 1 1 1 1 1
-223	86476 16 697 697 40.1 40.1 1 15 15 15 225
-224	86492 45 710 710 41.1 41.1 3 0 2 2 4
-225	86537 15 710 710 41.1 41.1 1 3 3 3 9
-226	86552 15 710 710 41.1 41.1 1 1 1 1 1
-227	86567 16 710 710 41.1 41.1 1 15 15 15 225
-228	86583 45 723 723 42.1 42.1 3 0 2 2 4
-229	86628 15 723 723 42.1 42.1 1 3 3 3 9
-230	86643 15 723 723 42.1 42.1 1 1 1 1 1
-231	86658 16 723 723 42.1 42.1 1 15 15 15 225
-232	86674 45 736 736 43.1 43.1 3 0 2 2 4
-233	86719 15 736 736 43.1 43.1 1 3 3 3 9
-234	86734 15 736 736 43.1 43.1 1 1 1 1 1
-235	86749 16 736 736 43.1 43.1 1 15 15 15 225
-236	86765 45 749 749 44.1 44.1 3 0 2 2 4
-237	86810 15 749 749 44.1 44.1 1 3 3 3 9
-238	86825 15 749 749 44.1 44.1 1 1 1 1 1
-239	86840 16 749 749 44.1 44.1 1 15 15 15 225
-240	86856 45 762 762 45.1 45.1 3 0 2 2 4
-241	86901 15 762 762 45.1 45.1 1 3 3 3 9
-242	86916 15 762 762 45.1 45.1 1 1 1 1 1
-243	86931 16 762 762 45.1 45.1 1 15 15 15 225
-244	86947 45 775 775 46.1 46.1 3 0 2 2 4
-245	86992 15 775 775 46.1 46.1 1 3 3 3 9
-246	87007 15 775 775 46.1 46.1 1 1 1 1 1
-247	87022 16 775 775 46.1 46.1 1 15 15 15 225
-248	87038 45 788 788 47.1 47.1 3 0 2 2 4
-249	87083 15 788 788 47.1 47.1 1 3 3 3 9
-250	87098 15 788 788 47.1 47.1 1 1 1 1 1
-251	87113 16 788 788 47.1 47.1 1 15 15 15 225
-252	87129 45 801 801 48.1 48.1 3 0 2 2 4
-253	87174 15 801 801 48.1 48.1 1 3 3 3 9
-254	87189 15 801 801 48.1 48.1 1 1 1 1 1
-255	87204 16 801 801 48.1 48.1 1 15 15 15 225
-256	87220 45 814 814 49.1 49.1 3 0 2 2 4
-257	87265 15 814 814 49.1 49.1 1 3 3 3 9
-258	87280 15 814 814 49.1 49.1 1 1 1 1 1
-259	87295 16 814 814 49.1 49.1 1 15 15 15 225
-260	87311 45 828 828 50.1 50.1 3 0 2 2 4
-261	87356 15 828 828 50.1 50.1 1 3 3 3 9
-262	87371 15 828 828 50.1 50.1 1 1 1 1 1
-263	87386 16 828 828 50.1 50.1 1 15 15 15 225
-264	87402 45 841 841 51.1 51.1 3 0 2 2 4
-265	87447 15 841 841 51.1 51.1 1 3 3 3 9
-266	87462 15 841 841 51.1 51.1 1 1 1 1 1
-267	87477 16 841 841 51.1 51.1 1 15 15 15 225
-268	87493 45 854 854 52.1 52.1 3 0 2 2 4
-269	87538 15 854 854 52.1 52.1 1 3 3 3 9
-270	87553 15 854 854 52.1 52.1 1 1 1 1 1
-271	87568 16 854 854 52.1 52.1 1 15 15 15 225
-272	87584 45 867 867 53.1 53.1 3 0 2 2 4
-273	87629 15 867 867 53.1 53.1 1 3 3 3 9
-274	87644 15 867 867 53.1 53.1 1 1 1 1 1
-275	87659 16 867 867 53.1 53.1 1 15 15 15 225
-276	87675 45 880 880 54.1 54.1 3 0 2 2 4
-277	87720 15 880 880 54.1 54.1 1 3 3 3 9
-278	87735 15 880 880 54.1 54.1 1 1 1 1 1
-279	87750 16 880 880 54.1 54.1 1 15 15 15 225
-280	87766 45 893 893 55.1 55.1 3 0 2 2 4
-281	87811 15 893 893 55.1 55.1 1 3 3 3 9
-282	87826 15 893 893 55.1 55.1 1 1 1 1 1
-283	87841 16 893 893 55.1 55.1 1 15 15 15 225
-284	87857 45 906 906 56.1 56.1 3 0 2 2 4
-285	87902 15 906 906 56.1 56.1 1 3 3 3 9
-286	87917 15 906 906 56.1 56.1 1 1 1 1 1
-287	87932 16 906 906 56.1 56.1 1 15 15 15 225
-288	87948 45 919 919 57.1 57.1 3 0 2 2 4
-289	87993 15 919 919 57.1 57.1 1 3 3 3 9
-290	88008 15 919 919 57.1 57.1 1 1 1 1 1
-291	88023 16 919 919 57.1 57.1 1 15 15 15 225
-292	88039 45 932 932 58.1 58.1 3 0 2 2 4
-293	88084 15 932 932 58.1 58.1 1 3 3 3 9
-294	88099 15 932 932 58.1 58.1 1 1 1 1 1
-295	88114 16 932 932 58.1 58.1 1 15 15 15 225
-296	88130 45 945 945 59.1 59.1 3 0 2 2 4
-297	88175 15 945 945 59.1 59.1 1 3 3 3 9
-298	88190 15 945 945 59.1 59.1 1 1 1 1 1
-299	88205 16 945 945 59.1 59.1 1 15 15 15 225
-300	88221 8781 958 958 0.1 60 600 0 0 0 0
-301	97002 8781 958 958 0.1 60 600 0 0 0 0
-302	105783 8781 958 958 0.1 60 600 0 0 0 0
-303	114564 8781 958 958 0.1 60 600 0 0 0 0
-304	123345 8781 958 958 0.1 60 600 0 0 0 0
-305	132126 8781 958 958 0.1 60 600 0 0 0 0
-306	140907 8781 958 958 0.1 60 600 0 0 0 0
-307	149688 8781 958 958 0.1 60 600 0 0 0 0
-308	158469 8781 958 958 0.1 60 600 0 0 0 0
-309	167250 8781 958 958 0.1 60 600 0 0 0 0
-310	176031 8781 958 958 0.1 60 600 0 0 0 0
-311	184812 8781 958 958 0.1 60 600 0 0 0 0
-312	193593 8781 958 958 0.1 60 600 0 0 0 0
-313	202374 8781 958 958 0.1 60 600 0 0 0 0
-314	211155 8781 958 958 0.1 60 600 0 0 0 0
-315	219936 8781 958 958 0.1 60 600 0 0 0 0
-316	228717 8781 958 958 0.1 60 600 0 0 0 0
-317	237498 8781 958 958 0.1 60 600 0 0 0 0
-318	246279 8781 958 958 0.1 60 600 0 0 0 0
-319	255060 8781 958 958 0.1 60 600 0 0 0 0
-320	263841 8781 958 958 0.1 60 600 0 0 0 0
-321	272622 8781 958 958 0.1 60 600 0 0 0 0
-322	281403 8781 958 958 0.1 60 600 0 0 0 0
-323	290184 8781 958 958 0.1 60 600 0 0 0 0
-324	298965 8781 958 958 0.1 60 600 0 0 0 0
-325	307746 8781 958 958 0.1 60 600 0 0 0 0
-326	316527 8781 958 958 0.1 60 600 0 0 0 0
-327	325308 8781 958 958 0.1 60 600 0 0 0 0
-328	334089 8781 958 958 0.1 60 600 0 0 0 0
-329	342870 8781 958 958 0.1 60 600 0 0 0 0
-330	351651 8781 958 958 0.1 60 600 0 0 0 0
-331	360432 8781 958 958 0.1 60 600 0 0 0 0
-332	369213 8781 958 958 0.1 60 600 0 0 0 0
-333	377994 8781 958 958 0.1 60 600 0 0 0 0
-334	386775 8781 958 958 0.1 60 600 0 0 0 0
-335	395556 8781 958 958 0.1 60 600 0 0 0 0
-336	404337 8781 958 958 0.1 60 600 0 0 0 0
-337	413118 8781 958 958 0.1 60 600 0 0 0 0
-338	421899 8781 958 958 0.1 60 600 0 0 0 0
-339	430680 8781 958 958 0.1 60 600 0 0 0 0
-340	439461 8781 958 958 0.1 60 600 0 0 0 0
-341	448242 8781 958 958 0.1 60 600 0 0 0 0
-342	457023 8781 958 958 0.1 60 600 0 0 0 0
-343	465804 8781 958 958 0.1 60 600 0 0 0 0
-344	474585 8781 958 958 0.1 60 600 0 0 0 0
-345	483366 8781 958 958 0.1 60 600 0 0 0 0
-346	492147 8781 958 958 0.1 60 600 0 0 0 0
-347	500928 8781 958 958 0.1 60 600 0 0 0 0
-348	509709 8781 958 958 0.1 60 600 0 0 0 0
-349	518490 8781 958 958 0.1 60 600 0 0 0 0
-350	527271 8781 958 958 0.1 60 600 0 0 0 0
-351	536052 8781 958 958 0.1 60 600 0 0 0 0
-352	544833 8781 958 958 0.1 60 600 0 0 0 0
-353	553614 8781 958 958 0.1 60 600 0 0 0 0
-354	562395 8781 958 958 0.1 60 600 0 0 0 0
-355	571176 8781 958 958 0.1 60 600 0 0 0 0
-356	579957 8781 958 958 0.1 60 600 0 0 0 0
-357	588738 8781 958 958 0.1 60 600 0 0 0 0
-
+357	588738 8782 958 958 0.1 60 600 0 0 0 0

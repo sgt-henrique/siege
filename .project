@@ -6,6 +6,7 @@
 		<project>Erlangen</project>
 		<project>inet</project>
 		<project>lte</project>
+		<project>Square</project>
 		<project>SUMO-Manhattan-1km_x_1km</project>
 		<project>SUMO-Manhattan-3km_x_3km</project>
 		<project>veins</project>

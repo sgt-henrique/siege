@@ -43,7 +43,7 @@ VeinsInetSampleApplication::VeinsInetSampleApplication()
 bool VeinsInetSampleApplication::startApplication()
 {
     // host[0] should stop at t=20s
-    if (getParentModule()->getIndex() == 0) {
+    if (getParentModule()->getIndex() == 1) {
         auto callback = [this]() {
             getParentModule()->getDisplayString().setTagArg("i", 1, "red");
 

@@ -1,0 +1,66 @@
+https://docs.omnetpp.org/tutorials/tictoc/part1/
+
+- Crie o NED file;
+- Crie os C++ file: 
+	dont forget Define_Module();
+- Crie omnetpp.ini:
+	Apenas defina a rede com o nome do arquivo NED;
+	a) Execute;
+	
+https://docs.omnetpp.org/tutorials/tictoc/part2/
+
+	b) Tente debugar:
+		i) na perspectiva do debugger, procure por alguma classe de nome familiar, que faça parte do modelo;
+		ii) na perspectiva do debugger, adicione breakpoints;
+		iii) na perspectiva do debugger, simulate -> debug next event
+		
+https://docs.omnetpp.org/tutorials/tictoc/part3/
+
+- Adicione ícones na interface gráfica:
+- Adicione mensagens adequadas para debugar no código da aplicação, por exemplo: 
+	EV << "Received message `" << msg->getName() << "', sending it out again\n";
+- Para observar o componente da rede de maneira isolada, clique com o botão direito e "open componente log for 'nome'"
+- Para adicionar uma variável contador, que limita a quantidade de vezes que o nó recebe uma mensagem:
+	tictoc3, txc3.cpp
+- Para definir parâmetros de entrada para a simulação:
+	tictoc4, txc4.cpp
+	Parâmetro que pode ser sobreposto pelo omnetpp.ini
+		Tictoc4.toc.limit = 5
+- Caso os nós sejam parecidos, pode-se utilizar herança:
+	tictoc5, txc5.cpp
+- Para adicionar delay (um tempo de espera), antes de enviar a mensagem:
+	tictoc6, txc6.cpp
+- Para adicionar aleatoriedade
+	tictoc7, txc7.cpp, omnetpp.ini
+- Quase um protocolo:
+	A partir de um envio de mensagem, supondo uma perda de pacote, um timer deve correr escalonando um novo envio;
+	tictoc8, txc8.cpp, omnetpp.ini
+	tictoc9, txc9.cpp, omnetpp.ini
+
+https://docs.omnetpp.org/tutorials/tictoc/part4/
+
+- Criando vários nós TIC e os conectando em uma rede;
+	tictoc10, txc10.cpp, omnetpp.ini
+- Channel
+	tictoc11
+- Conexão de duas vias
+	tictoc12
+- Implementação da mensagem
+	tictoc13.msg
+
+https://docs.omnetpp.org/tutorials/tictoc/part5/
+
+- Mostrando o número de pacotes enviados/recebidos
+	tictoc14
+- Estatísticas (hopCount,etc)
+	tictoc15
+- Estatísticas sem modificar seu modelo
+	tictoc16
+- Exibe contador de hopes na simulação
+	tictoc17
+
+https://docs.omnetpp.org/tutorials/tictoc/part6/
+
+- Visualização de resultados (scalars and vectors)
+	tictoc18
+	

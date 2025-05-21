@@ -42,25 +42,25 @@ network Scenario
 {
     parameters:
         bool useOsg = default(false);
-        @display("bgb=319,384");
+        @display("bgb=1000,1000");
     submodules:
         radioMedium: Ieee80211DimensionalRadioMedium {
-            @display("p=64,224");
+            @display("p=961.832,102.408");
         }
         manager: VeinsInetManager {
-            @display("p=192,320");
+            @display("p=961.832,174.696");
         }
         visualizer: IntegratedVisualizer {
-            @display("p=64,320");
+            @display("p=961.832,253.008");
         }
         physicalEnvironment: PhysicalEnvironment {
-            @display("p=192,224");
+            @display("p=961.832,38.152");
         }
         roadsCanvasVisualizer: RoadsCanvasVisualizer {
-            @display("p=64,416");
+            @display("p=961.832,409.632");
         }
         roadsOsgVisualizer: RoadsOsgVisualizer if useOsg {
-            @display("p=192,416");
+            @display("p=961.832,331.31998");
         }
         node[0]: VeinsInetCar;
 }
